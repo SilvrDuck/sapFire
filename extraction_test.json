@@ -1,0 +1,874 @@
+Listening at http://127.0.0.1:8080
+Handling POST request...
+POST payload: {
+        "provider": {
+                "name": "Counter-Strike: Global Offensive",
+                "appid": 730,
+                "version": 13656,
+                "steamid": "76561198012839969",
+                "timestamp": 1539685487
+        },
+        "player": {
+                "steamid": "76561198012839969",
+                "name": "nch.SilvrDucK",
+                "activity": "menu"
+        },
+        "auth": {
+                "token": "Q79v5tcxVQ8u"
+        }
+}
+Handling POST request...
+POST payload: {
+        "provider": {
+                "name": "Counter-Strike: Global Offensive",
+                "appid": 730,
+                "version": 13656,
+                "steamid": "76561198012839969",
+                "timestamp": 1539685524
+        },
+        "player": {
+                "steamid": "76561198012839969",
+                "name": "nch.SilvrDucK",
+                "activity": "menu"
+        },
+        "auth": {
+                "token": "Q79v5tcxVQ8u"
+        }
+}
+Handling POST request...
+POST payload: {
+        "provider": {
+                "name": "Counter-Strike: Global Offensive",
+                "appid": 730,
+                "version": 13656,
+                "steamid": "76561198012839969",
+                "timestamp": 1539685534
+        },
+        "map": {
+                "mode": "casual",
+                "name": "de_dust2",
+                "phase": "warmup",
+                "round": 0,
+                "team_ct": {
+                        "score": 0,
+                        "timeouts_remaining": 1,
+                        "matches_won_this_series": 0
+                },
+                "team_t": {
+                        "score": 0,
+                        "timeouts_remaining": 1,
+                        "matches_won_this_series": 0
+                },
+                "num_matches_to_win_series": 0,
+                "current_spectators": 0,
+                "souvenirs_total": 0
+        },
+        "player": {
+                "steamid": "76561198012839969",
+                "name": "unconnected",
+                "activity": "playing",
+                "state": {
+                        "health": 0,
+                        "armor": 0,
+                        "helmet": false,
+                        "flashed": 0,
+                        "smoked": 0,
+                        "burning": 0,
+                        "money": 10000,
+                        "round_kills": 0,
+                        "round_killhs": 0,
+                        "equip_value": 0
+                }
+        },
+        "previously": {
+                "player": {
+                        "name": "nch.SilvrDucK",
+                        "activity": "menu"
+                }
+        },
+        "added": {
+                "player": {
+                        "state": true
+                }
+        },
+        "auth": {
+                "token": "Q79v5tcxVQ8u"
+        }
+}
+Handling POST request...
+POST payload: {
+        "provider": {
+                "name": "Counter-Strike: Global Offensive",
+                "appid": 730,
+                "version": 13656,
+                "steamid": "76561198012839969",
+                "timestamp": 1539685539
+        },
+        "map": {
+                "mode": "casual",
+                "name": "de_dust2",
+                "phase": "warmup",
+                "round": 0,
+                "team_ct": {
+                        "score": 0,
+                        "timeouts_remaining": 1,
+                        "matches_won_this_series": 0
+                },
+                "team_t": {
+                        "score": 0,
+                        "timeouts_remaining": 1,
+                        "matches_won_this_series": 0
+                },
+                "num_matches_to_win_series": 0,
+                "current_spectators": 0,
+                "souvenirs_total": 0
+        },
+        "player": {
+                "steamid": "76561198012839969",
+                "name": "nch.SilvrDucK",
+                "activity": "playing",
+                "state": {
+                        "health": 0,
+                        "armor": 0,
+                        "helmet": false,
+                        "flashed": 0,
+                        "smoked": 0,
+                        "burning": 0,
+                        "money": 10000,
+                        "round_kills": 0,
+                        "round_killhs": 0,
+                        "equip_value": 0
+                }
+        },
+        "previously": {
+                "player": {
+                        "name": "unconnected"
+                }
+        },
+        "auth": {
+                "token": "Q79v5tcxVQ8u"
+        }
+}
+Handling POST request...
+POST payload: {
+        "provider": {
+                "name": "Counter-Strike: Global Offensive",
+                "appid": 730,
+                "version": 13656,
+                "steamid": "76561198012839969",
+                "timestamp": 1539685542
+        },
+        "map": {
+                "mode": "casual",
+                "name": "de_dust2",
+                "phase": "warmup",
+                "round": 0,
+                "team_ct": {
+                        "score": 0,
+                        "timeouts_remaining": 1,
+                        "matches_won_this_series": 0
+                },
+                "team_t": {
+                        "score": 0,
+                        "timeouts_remaining": 1,
+                        "matches_won_this_series": 0
+                },
+                "num_matches_to_win_series": 0,
+                "current_spectators": 0,
+                "souvenirs_total": 0
+        },
+        "player": {
+                "steamid": "76561198012839969",
+                "name": "nch.SilvrDucK",
+                "team": "CT",
+                "activity": "playing",
+                "state": {
+                        "health": 100,
+                        "armor": 100,
+                        "helmet": true,
+                        "defusekit": true,
+                        "flashed": 0,
+                        "smoked": 0,
+                        "burning": 0,
+                        "money": 10000,
+                        "round_kills": 0,
+                        "round_killhs": 0,
+                        "equip_value": 1600
+                }
+        },
+        "previously": {
+                "player": {
+                        "state": {
+                                "health": 0,
+                                "armor": 0,
+                                "helmet": false,
+                                "equip_value": 0
+                        }
+                }
+        },
+        "added": {
+                "player": {
+                        "state": {
+                                "defusekit": true
+                        },
+                        "team": true
+                }
+        },
+        "auth": {
+                "token": "Q79v5tcxVQ8u"
+        }
+}
+Handling POST request...
+POST payload: {
+        "provider": {
+                "name": "Counter-Strike: Global Offensive",
+                "appid": 730,
+                "version": 13656,
+                "steamid": "76561198012839969",
+                "timestamp": 1539685543
+        },
+        "map": {
+                "mode": "casual",
+                "name": "de_dust2",
+                "phase": "warmup",
+                "round": 0,
+                "team_ct": {
+                        "score": 0,
+                        "timeouts_remaining": 1,
+                        "matches_won_this_series": 0
+                },
+                "team_t": {
+                        "score": 0,
+                        "timeouts_remaining": 1,
+                        "matches_won_this_series": 0
+                },
+                "num_matches_to_win_series": 0,
+                "current_spectators": 0,
+                "souvenirs_total": 0
+        },
+        "player": {
+                "steamid": "76561198012839969",
+                "name": "nch.SilvrDucK",
+                "observer_slot": 1,
+                "team": "CT",
+                "activity": "playing",
+                "state": {
+                        "health": 100,
+                        "armor": 100,
+                        "helmet": true,
+                        "defusekit": true,
+                        "flashed": 0,
+                        "smoked": 0,
+                        "burning": 0,
+                        "money": 10000,
+                        "round_kills": 0,
+                        "round_killhs": 0,
+                        "equip_value": 1600
+                }
+        },
+        "added": {
+                "player": {
+                        "observer_slot": true
+                }
+        },
+        "auth": {
+                "token": "Q79v5tcxVQ8u"
+        }
+}
+Handling POST request...
+POST payload: {
+        "provider": {
+                "name": "Counter-Strike: Global Offensive",
+                "appid": 730,
+                "version": 13656,
+                "steamid": "76561198012839969",
+                "timestamp": 1539685573
+        },
+        "map": {
+                "mode": "casual",
+                "name": "de_dust2",
+                "phase": "warmup",
+                "round": 0,
+                "team_ct": {
+                        "score": 0,
+                        "timeouts_remaining": 1,
+                        "matches_won_this_series": 0
+                },
+                "team_t": {
+                        "score": 0,
+                        "timeouts_remaining": 1,
+                        "matches_won_this_series": 0
+                },
+                "num_matches_to_win_series": 0,
+                "current_spectators": 0,
+                "souvenirs_total": 0
+        },
+        "player": {
+                "steamid": "76561198012839969",
+                "name": "nch.SilvrDucK",
+                "observer_slot": 1,
+                "team": "CT",
+                "activity": "playing",
+                "state": {
+                        "health": 100,
+                        "armor": 100,
+                        "helmet": true,
+                        "defusekit": true,
+                        "flashed": 0,
+                        "smoked": 0,
+                        "burning": 0,
+                        "money": 10000,
+                        "round_kills": 0,
+                        "round_killhs": 0,
+                        "equip_value": 1600
+                }
+        },
+        "auth": {
+                "token": "Q79v5tcxVQ8u"
+        }
+}
+Handling POST request...
+POST payload: {
+        "provider": {
+                "name": "Counter-Strike: Global Offensive",
+                "appid": 730,
+                "version": 13656,
+                "steamid": "76561198012839969",
+                "timestamp": 1539685603
+        },
+        "map": {
+                "mode": "casual",
+                "name": "de_dust2",
+                "phase": "warmup",
+                "round": 0,
+                "team_ct": {
+                        "score": 0,
+                        "timeouts_remaining": 1,
+                        "matches_won_this_series": 0
+                },
+                "team_t": {
+                        "score": 0,
+                        "timeouts_remaining": 1,
+                        "matches_won_this_series": 0
+                },
+                "num_matches_to_win_series": 0,
+                "current_spectators": 0,
+                "souvenirs_total": 0
+        },
+        "player": {
+                "steamid": "76561198012839969",
+                "name": "nch.SilvrDucK",
+                "observer_slot": 1,
+                "team": "CT",
+                "activity": "playing",
+                "state": {
+                        "health": 100,
+                        "armor": 100,
+                        "helmet": true,
+                        "defusekit": true,
+                        "flashed": 0,
+                        "smoked": 0,
+                        "burning": 0,
+                        "money": 10000,
+                        "round_kills": 0,
+                        "round_killhs": 0,
+                        "equip_value": 1600
+                }
+        },
+        "auth": {
+                "token": "Q79v5tcxVQ8u"
+        }
+}
+Handling POST request...
+POST payload: {
+        "provider": {
+                "name": "Counter-Strike: Global Offensive",
+                "appid": 730,
+                "version": 13656,
+                "steamid": "76561198012839969",
+                "timestamp": 1539685633
+        },
+        "map": {
+                "mode": "casual",
+                "name": "de_dust2",
+                "phase": "live",
+                "round": 0,
+                "team_ct": {
+                        "score": 0,
+                        "timeouts_remaining": 1,
+                        "matches_won_this_series": 0
+                },
+                "team_t": {
+                        "score": 0,
+                        "timeouts_remaining": 1,
+                        "matches_won_this_series": 0
+                },
+                "num_matches_to_win_series": 0,
+                "current_spectators": 0,
+                "souvenirs_total": 0
+        },
+        "round": {
+                "phase": "freezetime"
+        },
+        "player": {
+                "steamid": "76561198012839969",
+                "name": "nch.SilvrDucK",
+                "observer_slot": 1,
+                "team": "CT",
+                "activity": "playing",
+                "state": {
+                        "health": 100,
+                        "armor": 100,
+                        "helmet": true,
+                        "defusekit": true,
+                        "flashed": 0,
+                        "smoked": 0,
+                        "burning": 0,
+                        "money": 1000,
+                        "round_kills": 0,
+                        "round_killhs": 0,
+                        "equip_value": 1600
+                }
+        },
+        "previously": {
+                "map": {
+                        "phase": "warmup"
+                },
+                "player": {
+                        "state": {
+                                "money": 10000
+                        }
+                }
+        },
+        "auth": {
+                "token": "Q79v5tcxVQ8u"
+        }
+}
+Handling POST request...
+POST payload: {
+        "provider": {
+                "name": "Counter-Strike: Global Offensive",
+                "appid": 730,
+                "version": 13656,
+                "steamid": "76561198012839969",
+                "timestamp": 1539685638
+        },
+        "map": {
+                "mode": "casual",
+                "name": "de_dust2",
+                "phase": "live",
+                "round": 0,
+                "team_ct": {
+                        "score": 0,
+                        "timeouts_remaining": 1,
+                        "matches_won_this_series": 0
+                },
+                "team_t": {
+                        "score": 0,
+                        "timeouts_remaining": 1,
+                        "matches_won_this_series": 0
+                },
+                "num_matches_to_win_series": 0,
+                "current_spectators": 0,
+                "souvenirs_total": 0
+        },
+        "round": {
+                "phase": "live"
+        },
+        "player": {
+                "steamid": "76561198012839969",
+                "name": "nch.SilvrDucK",
+                "observer_slot": 1,
+                "team": "CT",
+                "activity": "playing",
+                "state": {
+                        "health": 100,
+                        "armor": 100,
+                        "helmet": true,
+                        "defusekit": true,
+                        "flashed": 0,
+                        "smoked": 0,
+                        "burning": 0,
+                        "money": 1000,
+                        "round_kills": 0,
+                        "round_killhs": 0,
+                        "equip_value": 1600
+                }
+        },
+        "previously": {
+                "round": {
+                        "phase": "freezetime"
+                }
+        },
+        "auth": {
+                "token": "Q79v5tcxVQ8u"
+        }
+}
+Handling POST request...
+POST payload: {
+        "provider": {
+                "name": "Counter-Strike: Global Offensive",
+                "appid": 730,
+                "version": 13656,
+                "steamid": "76561198012839969",
+                "timestamp": 1539685668
+        },
+        "map": {
+                "mode": "casual",
+                "name": "de_dust2",
+                "phase": "live",
+                "round": 0,
+                "team_ct": {
+                        "score": 0,
+                        "timeouts_remaining": 1,
+                        "matches_won_this_series": 0
+                },
+                "team_t": {
+                        "score": 0,
+                        "timeouts_remaining": 1,
+                        "matches_won_this_series": 0
+                },
+                "num_matches_to_win_series": 0,
+                "current_spectators": 0,
+                "souvenirs_total": 0
+        },
+        "round": {
+                "phase": "live"
+        },
+        "player": {
+                "steamid": "76561198012839969",
+                "name": "nch.SilvrDucK",
+                "observer_slot": 1,
+                "team": "CT",
+                "activity": "playing",
+                "state": {
+                        "health": 100,
+                        "armor": 100,
+                        "helmet": true,
+                        "defusekit": true,
+                        "flashed": 0,
+                        "smoked": 0,
+                        "burning": 0,
+                        "money": 1000,
+                        "round_kills": 0,
+                        "round_killhs": 0,
+                        "equip_value": 1600
+                }
+        },
+        "auth": {
+                "token": "Q79v5tcxVQ8u"
+        }
+}
+Handling POST request...
+POST payload: {
+        "provider": {
+                "name": "Counter-Strike: Global Offensive",
+                "appid": 730,
+                "version": 13656,
+                "steamid": "76561198012839969",
+                "timestamp": 1539685698
+        },
+        "map": {
+                "mode": "casual",
+                "name": "de_dust2",
+                "phase": "live",
+                "round": 0,
+                "team_ct": {
+                        "score": 0,
+                        "timeouts_remaining": 1,
+                        "matches_won_this_series": 0
+                },
+                "team_t": {
+                        "score": 0,
+                        "timeouts_remaining": 1,
+                        "matches_won_this_series": 0
+                },
+                "num_matches_to_win_series": 0,
+                "current_spectators": 0,
+                "souvenirs_total": 0
+        },
+        "round": {
+                "phase": "live"
+        },
+        "player": {
+                "steamid": "76561198012839969",
+                "name": "nch.SilvrDucK",
+                "observer_slot": 1,
+                "team": "CT",
+                "activity": "playing",
+                "state": {
+                        "health": 100,
+                        "armor": 100,
+                        "helmet": true,
+                        "defusekit": true,
+                        "flashed": 0,
+                        "smoked": 0,
+                        "burning": 0,
+                        "money": 1000,
+                        "round_kills": 0,
+                        "round_killhs": 0,
+                        "equip_value": 1600
+                }
+        },
+        "auth": {
+                "token": "Q79v5tcxVQ8u"
+        }
+}
+Handling POST request...
+POST payload: {
+        "provider": {
+                "name": "Counter-Strike: Global Offensive",
+                "appid": 730,
+                "version": 13656,
+                "steamid": "76561198012839969",
+                "timestamp": 1539685703
+        },
+        "map": {
+                "mode": "casual",
+                "name": "de_dust2",
+                "phase": "live",
+                "round": 1,
+                "team_ct": {
+                        "score": 0,
+                        "timeouts_remaining": 1,
+                        "matches_won_this_series": 0
+                },
+                "team_t": {
+                        "score": 0,
+                        "timeouts_remaining": 1,
+                        "matches_won_this_series": 0
+                },
+                "num_matches_to_win_series": 0,
+                "current_spectators": 0,
+                "souvenirs_total": 0
+        },
+        "round": {
+                "phase": "over",
+                "win_team": "CT"
+        },
+        "player": {
+                "steamid": "76561198012839969",
+                "name": "nch.SilvrDucK",
+                "observer_slot": 1,
+                "team": "CT",
+                "activity": "playing",
+                "state": {
+                        "health": 100,
+                        "armor": 100,
+                        "helmet": true,
+                        "defusekit": true,
+                        "flashed": 0,
+                        "smoked": 0,
+                        "burning": 0,
+                        "money": 3700,
+                        "round_kills": 0,
+                        "round_killhs": 0,
+                        "equip_value": 1600
+                }
+        },
+        "previously": {
+                "map": {
+                        "round": 0
+                },
+                "round": {
+                        "phase": "live"
+                },
+                "player": {
+                        "state": {
+                                "money": 1000
+                        }
+                }
+        },
+        "added": {
+                "round": {
+                        "win_team": true
+                }
+        },
+        "auth": {
+                "token": "Q79v5tcxVQ8u"
+        }
+}
+Handling POST request...
+POST payload: {
+        "provider": {
+                "name": "Counter-Strike: Global Offensive",
+                "appid": 730,
+                "version": 13656,
+                "steamid": "76561198012839969",
+                "timestamp": 1539685704
+        },
+        "map": {
+                "mode": "casual",
+                "name": "de_dust2",
+                "phase": "live",
+                "round": 1,
+                "team_ct": {
+                        "score": 1,
+                        "timeouts_remaining": 1,
+                        "matches_won_this_series": 0
+                },
+                "team_t": {
+                        "score": 0,
+                        "timeouts_remaining": 1,
+                        "matches_won_this_series": 0
+                },
+                "num_matches_to_win_series": 0,
+                "current_spectators": 0,
+                "souvenirs_total": 0
+        },
+        "round": {
+                "phase": "over",
+                "win_team": "CT"
+        },
+        "player": {
+                "steamid": "76561198012839969",
+                "name": "nch.SilvrDucK",
+                "observer_slot": 1,
+                "team": "CT",
+                "activity": "playing",
+                "state": {
+                        "health": 100,
+                        "armor": 100,
+                        "helmet": true,
+                        "defusekit": true,
+                        "flashed": 0,
+                        "smoked": 0,
+                        "burning": 0,
+                        "money": 3700,
+                        "round_kills": 0,
+                        "round_killhs": 0,
+                        "equip_value": 1600
+                }
+        },
+        "previously": {
+                "map": {
+                        "team_ct": {
+                                "score": 0
+                        }
+                }
+        },
+        "auth": {
+                "token": "Q79v5tcxVQ8u"
+        }
+}
+Handling POST request...
+POST payload: {
+        "provider": {
+                "name": "Counter-Strike: Global Offensive",
+                "appid": 730,
+                "version": 13656,
+                "steamid": "76561198012839969",
+                "timestamp": 1539685713
+        },
+        "map": {
+                "mode": "casual",
+                "name": "de_dust2",
+                "phase": "live",
+                "round": 1,
+                "team_ct": {
+                        "score": 1,
+                        "timeouts_remaining": 1,
+                        "matches_won_this_series": 0
+                },
+                "team_t": {
+                        "score": 0,
+                        "timeouts_remaining": 1,
+                        "matches_won_this_series": 0
+                },
+                "num_matches_to_win_series": 0,
+                "current_spectators": 0,
+                "souvenirs_total": 0
+        },
+        "round": {
+                "phase": "freezetime"
+        },
+        "player": {
+                "steamid": "76561198012839969",
+                "name": "nch.SilvrDucK",
+                "observer_slot": 1,
+                "team": "CT",
+                "activity": "playing",
+                "state": {
+                        "health": 100,
+                        "armor": 100,
+                        "helmet": true,
+                        "defusekit": true,
+                        "flashed": 0,
+                        "smoked": 0,
+                        "burning": 0,
+                        "money": 3700,
+                        "round_kills": 0,
+                        "round_killhs": 0,
+                        "equip_value": 1600
+                }
+        },
+        "previously": {
+                "round": {
+                        "phase": "over",
+                        "win_team": "CT"
+                }
+        },
+        "auth": {
+                "token": "Q79v5tcxVQ8u"
+        }
+}
+Handling POST request...
+POST payload: {
+        "provider": {
+                "name": "Counter-Strike: Global Offensive",
+                "appid": 730,
+                "version": 13656,
+                "steamid": "76561198012839969",
+                "timestamp": 1539685715
+        },
+        "map": {
+                "mode": "casual",
+                "name": "de_dust2",
+                "phase": "live",
+                "round": 1,
+                "team_ct": {
+                        "score": 1,
+                        "timeouts_remaining": 1,
+                        "matches_won_this_series": 0
+                },
+                "team_t": {
+                        "score": 0,
+                        "timeouts_remaining": 1,
+                        "matches_won_this_series": 0
+                },
+                "num_matches_to_win_series": 0,
+                "current_spectators": 0,
+                "souvenirs_total": 0
+        },
+        "round": {
+                "phase": "freezetime"
+        },
+        "player": {
+                "steamid": "76561198012839969",
+                "name": "nch.SilvrDucK",
+                "observer_slot": 1,
+                "team": "CT",
+                "activity": "textinput",
+                "state": {
+                        "health": 100,
+                        "armor": 100,
+                        "helmet": true,
+                        "defusekit": true,
+                        "flashed": 0,
+                        "smoked": 0,
+                        "burning": 0,
+                        "money": 3700,
+                        "round_kills": 0,
+                        "round_killhs": 0,
+                        "equip_value": 1600
+                }
+        },
+        "previously": {
+                "player": {
+                        "activity": "playing"
+                }
+        },
+        "auth": {
+                "token": "Q79v5tcxVQ8u"
+        }
+}

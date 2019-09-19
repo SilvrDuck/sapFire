@@ -1,0 +1,125 @@
+tick features:
+global
+        map                     cat
+        phase                   cat
+        round                   int
+        round_time              float
+        ct_score                int
+        t_score                 int
+player
+        observer_slot           int
+        team                    cat
+        health                  int
+        flashed                 bool
+        burning                 bool
+        helmet                  bool
+        money                   int
+        round_kills             int
+        round_killshs           int
+        round_totaldmg          int
+        equip_value             int
+        match_kills             int
+        match_assists           int
+        match_deaths            int
+        mvps                    int
+        score                   int
+
+        active_weap             cat
+        main_weap               cat
+        second_weap             cat
+
+        dist_closest_enemy      float
+        watches_enemy           bool
+
+
+
+        "allplayers": {
+                "76561197995636890": {
+                        "observer_slot": 6,
+                        "team": "T",
+                        "state": {
+                                "health": 100,
+                                "armor": 100,
+                                "helmet": true,
+                                "flashed": 0,
+                                "burning": 0,
+                                "money": 1200,
+                                "round_kills": 1,
+                                "round_killhs": 0,
+                                "round_totaldmg": 100,
+                                "equip_value": 4900
+                        },
+                        "match_stats": {
+                                "kills": 13,
+                                "assists": 2,
+                                "deaths": 4,
+                                "mvps": 2,
+                                "score": 29
+                        },
+                        "weapons": {
+                                "weapon_0": {
+                                        "name": "weapon_knife_t",
+                                        "paintkit": "default",
+                                        "type": "Knife",
+                                        "state": "holstered"
+                                },
+                                "weapon_1": {
+                                        "name": "weapon_glock",
+                                        "paintkit": "default",
+                                        "type": "Pistol",
+                                        "ammo_clip": 20,
+                                        "ammo_clip_max": 20,
+                                        "ammo_reserve": 120,
+                                        "state": "holstered"
+                                },
+                                "weapon_2": {
+                                        "name": "weapon_ak47",
+                                        "paintkit": "hy_ak47lam",
+                                        "type": "Rifle",
+                                        "ammo_clip": 30,
+                                        "ammo_clip_max": 30,
+                                        "ammo_reserve": 71,
+                                        "state": "active"
+                                },
+                                "weapon_3": {
+                                        "name": "weapon_smokegrenade",
+                                        "paintkit": "default",
+                                        "type": "Grenade",
+                                        "ammo_reserve": 1,
+                                        "state": "holstered"
+                                },
+                                "weapon_4": {
+                                        "name": "weapon_flashbang",
+                                        "paintkit": "default",
+                                        "type": "Grenade",
+                                        "ammo_reserve": 2,
+                                        "state": "holstered"
+                                },
+                                "weapon_5": {
+                                        "name": "weapon_hegrenade",
+                                        "paintkit": "default",
+                                        "type": "Grenade",
+                                        "ammo_reserve": 1,
+                                        "state": "holstered"
+                                }
+                        },
+                        "position": "595.98, -1121.71, 1614.03",
+                        "forward": "-0.23, 0.97, -0.03"
+                }
+        },
+        "phase_countdowns": {
+                "phase": "live",
+                "phase_ends_in": "27.5"
+        },
+        "grenades": {
+
+        },
+        "previously": {
+                "allplayers": {
+                        "76561197995636890": {
+                                "position": "655.61, -1152.66, 1614.03",
+                                "forward": "-0.34, 0.94, -0.01"
+                        }
+                }
+        }
+}

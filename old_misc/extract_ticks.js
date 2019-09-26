@@ -11,7 +11,7 @@ fs.readFile(demo_path, function(err, data) {
 
   var jsdem = new jsgo.Demo();
 
-  jsdem.on('game.weapon_fire', function(event) {
+  jsdem.on('*', function(event) {
     //console.log(jsdem.getTick());
  
         console.log(event);

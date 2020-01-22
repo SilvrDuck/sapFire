@@ -50,7 +50,8 @@ class HltvSpider(scrapy.Spider):
         We are mostly intereseted in the demos url
         """
         demo_href = response.xpath("//div[@class='stream-box']/a[contains(text(), 'GOTV Demo')]/@href").get()
-        dir_name = response.url.split('/')[-1]
+        urlsplit = response.url.split('/')
+        dir_name = f'{urlsplit[-1]}_{urlsplit[-2]}'
 
         maps = response.xpath("//div[@class=' played']/div/div[@class='mapname']/text()").getall() # only played ones
         if len(maps) <= 0: # some older events didn't use the 'played' class, unplayed was not displayed

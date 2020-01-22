@@ -12,14 +12,14 @@ metadata = data_dir / 'metadata.json'
 if not metadata.is_file():
     raise FileNotFoundError(f"{metadata} not found. You probably need to run the demo_scraper (run 'scrapy crawl hltv')")
 
-metadata_df = pd.read_json(metadata)
+metadata_df = pd.read_json(metadata).set_index('dir_name')
 
 if __name__ == '__main__':
 
     faulty = []
 
-    for _, r in tqdm(metadata_df.iterrows()):
-        dir_name = r['dir_name']
+    for dir_name, r in tqdm(metadata_df.iterrows()):
+        
         demo_url = r['demo_url']
 
         path = demo_dir / dir_name

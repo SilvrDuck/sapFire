@@ -7,7 +7,6 @@ import tqdm as tqdm
 from demo_downloader import demo_dir
 
 
-issues = []
 
 def extract_in_dir(path):
         print(f'Extraction start: {path}')
@@ -19,7 +18,8 @@ def extract_in_dir(path):
                     r = subprocess.call(["unrar", "x", "-y", str(f), str(path)])
                 if r != 0:
                     print(f'Extraction issue with {f}')                
-                    issues += [f]
+                    with open(path / 'issue.txt', 'w') as t:
+                        t.write('issue')
                 else:
                     # clean extracted files
                     subprocess.call(["rm", str(f)])
@@ -31,8 +31,3 @@ if __name__ == '__main__':
     for d in demo_dir.iterdir():
         extract_in_dir(d)
         
-    if len(issues) > 0:
-        print('Issues with:')
-        for f in issues:
-            print(f)
-    
